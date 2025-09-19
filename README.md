@@ -17,7 +17,7 @@ This project lets you add, mark complete, and delete tasks. It also saves tasks 
 ## 📂 Project Structure
 ```
 📁 Todo-App
- ┣ 📜 todo_4.html   # Main HTML file
+ ┣ 📜 index.html    # Main HTML file
  ┣ 📜 style_4.css   # Styles for the app
  ┣ 📜 script.js     # JavaScript logic
  ┗ 📜 README.md     # Project documentation
@@ -40,7 +40,7 @@ This project lets you add, mark complete, and delete tasks. It also saves tasks 
 ---
 
 ## Live Demo
-[Click here to try it live]()
+[Click here to try it live](https://divyansh-redoc.github.io/Todo-List-App-/)
 
 ---
 
