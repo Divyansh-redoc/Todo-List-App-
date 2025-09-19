@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	padding: 15px;
+	font-family: oswald;
+	color: white;
+	background: linear-gradient(90deg, #153677, #4e885f);
+}
+
+button{
+	cursor: pointer;
+}
+
+.container{
+	box-shadow: 5px 5px 5px 5px #ff, -5px -5px 5px 5px #fff3b0;
+	height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: center;
+	width: 70vw;
+	padding: 15px; 
+	margin: 0 auto 0;
+	border-radius: 15px;
+}
+
+.container .Addtask{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	text-align: center;
+	width: 70%;
+	border-radius: 15px;
+}
+
+.container .Addtask #taskInput{
+	flex: 1;
+	color: black;
+	background: #a7a2a9; 
+	border-radius: 10px;
+	font-weight: bolder;
+	width: 60%;
+	padding: 5px;
+	height: 2.5rem;
+	border: none;
+	padding: 10px;
+}
+
+.container .Addtask #addTaskBtn{
+	border: none;
+	border-radius: 15px;
+	padding: 10px;
+	font-weight: bold;
+	background: orange;
+}
+
+.container #task-container{
+	height: 85%;
+	overflow-y: auto;
+	color: black;
+	width: 70%;
+}
+
+#task-container .task_box {
+	border-bottom: 1px solid black;
+	background: #a7a2a9; 
+	/* margin:10px 0; */
+	border-radius: 5px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#task-container .comp{
+	opacity: 50%;
+}
+
+#task-container .task_box .completed{
+	text-decoration: line-through;
+}
+
+#task-container .task_box *{
+	margin: 0 2px 0 0;
+}
+
+#task-container .task_box .delbtn{
+	margin-left: auto;
+	/* padding: 5px 10px; */
+	background: none;
+	color: #ff0000;
+	font-size: 1.3rem;
+	border: none;
+	border-radius: 50%;
+	font-weight: bolder;
+}
