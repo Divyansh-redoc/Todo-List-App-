@@ -35,7 +35,10 @@ This project lets you add, mark complete, and delete tasks. It also saves tasks 
 ---
 
 ## 🖼️ Demo Screenshot
-**  
+
+![Home Screen](Screenshot1st.png)
+![Add Todo](Screenshot2nd.png)
+![Completed Tasks](Screenshot3rd.png) 
 
 ---
 
