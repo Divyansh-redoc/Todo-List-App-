@@ -33,13 +33,6 @@ function createTaskBox(inputData){
 	saveData()
 }
 
-// function deleteFunc (delbtn){
-	// delbtn.addEventListener('click', () =>{
-		// delbtn.parentElement.remove();
-		// saveData()
-	// });
-// }
-
 taskContainer.addEventListener('click', (event) =>{
 	if(event.target.tagName === "DIV"){
 		event.target.firstElementChild.classList.toggle("completed");
@@ -58,5 +51,6 @@ function saveData(){
 function showData(){
 	taskContainer.innerHTML = localStorage.getItem("data");
 }
+
 
 showData();
